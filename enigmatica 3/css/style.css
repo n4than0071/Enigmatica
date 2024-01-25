@@ -1,0 +1,59 @@
+body main h1{
+    margin-top: 3%;
+    text-align: center;
+    color: purple;
+    margin-bottom: 4%;
+    font-size: 35px;
+    font-weight: 700;
+}
+body main div {
+    margin-top: 5%;
+    margin-bottom: 2%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+body main div img{
+    width: 540px;
+    height: 540px;
+}
+body main div h2{
+    font-family: 'Rubik', sans-serif;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-weight: 500;
+    font-size: 20px;
+
+}
+
+body main input {
+    margin-top: 1%;
+    text-align: center;
+    display: block; /* Torna o input um bloco para centralizá-lo */
+    margin-left: auto; /* Centraliza o input horizontalmente */
+    margin-right: auto;
+    border: 2px solid #ffffff;
+    color: purple;
+    font-size: 20px;
+    border-radius: 15px;
+    width: 15%;
+    height: 45px;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+body main button {
+    display: block; /* Torna o botão um bloco para posicioná-lo abaixo do input */
+    margin-top: 1%; /* Adiciona um espaço entre o input e o botão */
+    margin-left: auto; /* Centraliza o botão horizontalmente */
+    margin-right: auto;
+    width: 5%;
+    height: 15px;
+    color: purple;
+    font-size: 20px;
+    margin-bottom: 0%;
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+}
