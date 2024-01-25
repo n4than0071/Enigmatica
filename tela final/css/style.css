@@ -1,0 +1,15 @@
+body main{
+text-align: center;
+margin: 0;
+padding: 0;
+position: relative;
+}
+
+body main h1{
+
+color: purple;
+font-weight: 800;
+font-size: 75px;
+width: 100%;
+margin-top: 10%;   
+}

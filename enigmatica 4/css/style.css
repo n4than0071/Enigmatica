@@ -6,30 +6,25 @@ body main h1{
     font-size: 35px;
     font-weight: 700;
 }
-body main div{
-    margin-top: 5%;
-    margin-bottom: 2%;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-}
-body main div img{
-    width: 10%;
-
-
-}
-body main h2,h3{
+body main p{
     font-family: 'Rubik', sans-serif;
     text-align: center;
-    color: rgb(0, 0, 0);
+    color: purple;
     font-weight: 500;
     font-size: 20px;
 }
+
 body main h3{
-    margin-top: 10%;
-}
-body main input {
     margin-top: 6%;
+    font-family: 'Rubik', sans-serif;
+    text-align: center;
+    color: rgba(128, 0, 128, 0.144);
+    font-weight: 500;
+    font-size: 20px;
+}  
+
+body main input {
+    margin-top: 1%;
     text-align: center;
     display: block; /* Torna o input um bloco para centralizá-lo */
     margin-left: auto; /* Centraliza o input horizontalmente */
@@ -45,7 +40,7 @@ body main input {
 
 body main button {
     display: block; /* Torna o botão um bloco para posicioná-lo abaixo do input */
-    margin-top: 1%; /* Adiciona um espaço entre o input e o botão */
+    margin-top: 0%; /* Adiciona um espaço entre o input e o botão */
     margin-left: auto; /* Centraliza o botão horizontalmente */
     margin-right: auto;
     width: 5%;

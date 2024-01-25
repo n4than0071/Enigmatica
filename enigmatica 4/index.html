@@ -6,13 +6,50 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="../css/main.css">
 
-    <title>Enigmatica 2</title>
+    <title>Enigmatica 4</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <link rel="icon" type="image/png" href="../img/butterflyicon.png">
 </head>
 <body>
-    <h1>2</h1>
+    <main>
+        <h1>Level 4</h1>
+
+        <p> 
+            WBF OC QKWWSIMB eOU XQHRG IAQFYDnEO<br>
+            XAR WZFHQXE UXS XBOCM NVCGDA<br>
+            IZ ACC ZQGH VRPZBNHU TMVCJ R RIH<br>
+            YO SFVWRYHY KYG QOF QFFU MS YPO GBC<br>
+            <br>
+            QM XICSJ FZI SOVVE OJ IPNYI WQY ZFRTl<br>
+            WXYMC GS EYECM Y DELLFW NCGE YOE QRRPLC<br>
+            QFKWRV DI GWPUG KRWSEWNXSHJY<br>
+            QYWFFW AoMIuQ TRF qVX CDXMHIuSeXRXSHJY<br>
+            <br>
+            s eLI dCO YY UXS XBOCM WSOTDFKMYSoG<br>
+            OQ GDAZrUZ ODCGQ TIV ATBAKYQ HHGVRUL<br>
+
+        </p>
+
+        <h3>resposta em inglês</h3>
+        <input type="text" id="resposta" placeholder="...">
+
+            <button onclick="verificarResposta()">Verificar</button>
+        
+            <script>
+                function verificarResposta() {
+                    var respostaInserida = document.getElementById("resposta").value;
+                    
+                    // Verifica se a resposta está correta (substitua "resposta_correta" pela resposta desejada)
+                    if (respostaInserida.toLowerCase() === "life") {
+                        // Redireciona para outra página (substitua "outrapagina.html" pelo nome do seu arquivo HTML de destino)
+                        window.location.href = '../tela final/index.html';
+                    } else {
+                        alert("Resposta incorreta. Tente novamente.");
+                    }
+                }
+            </script>
+    </main>
 </body>
 </html>
