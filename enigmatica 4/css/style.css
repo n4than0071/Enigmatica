@@ -26,8 +26,8 @@ body main h3{
 body main input {
     margin-top: 1%;
     text-align: center;
-    display: block; /* Torna o input um bloco para centralizá-lo */
-    margin-left: auto; /* Centraliza o input horizontalmente */
+    display: block;
+    margin-left: auto;
     margin-right: auto;
     border: 2px solid #ffffff;
     color: purple;
@@ -39,8 +39,8 @@ body main input {
 }
 
 body main button {
-    display: block; /* Torna o botão um bloco para posicioná-lo abaixo do input */
-    margin-top: 0%; /* Adiciona um espaço entre o input e o botão */
+    display: block;
+    margin-top: 0%;
     margin-left: auto; /* Centraliza o botão horizontalmente */
     margin-right: auto;
     width: 5%;
